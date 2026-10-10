@@ -1,0 +1,7 @@
+torch>=2.0
+numpy
+gymnasium[box2d]>=1.0
+onnx
+onnxruntime
+tqdm
+pillow
