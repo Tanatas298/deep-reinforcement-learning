@@ -19,9 +19,7 @@ Tested on 100 runs with random terrain, the trained agent reaches the end in **9
 
 ![Training curve](assets/training_curve.png)
 
-Training takes about 10 minutes on a laptop CPU. The agent first reaches the end around episode 360. After that, the runs that reach the end keep improving, from about 255 to about 290 points, because the robot learns to walk faster and with less energy. The low dots are falls caused by the random actions the agent samples while training.
 
-One setting mattered most: the episode time limit. With episodes cut at 400 steps, the agent only practised the first quarter of the course and averaged 181 ± 120 over 20 test runs. With the full 1,600 steps it averaged 299 ± 0.6.
 
 ## How to run
 
